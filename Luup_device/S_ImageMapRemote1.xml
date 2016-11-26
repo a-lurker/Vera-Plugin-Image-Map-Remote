@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<scpd xmlns="urn:schemas-upnp-org:service-1-0">
+<specVersion>
+  <major>1</major>
+  <minor>0</minor>
+</specVersion>
+<serviceStateTable>
+     <stateVariable>
+      <name>RemoteName</name>
+      <sendEventsAttribute>no</sendEventsAttribute>
+      <dataType>string</dataType>
+      <defaultValue></defaultValue>
+     </stateVariable>
+     <stateVariable>
+      <name>IODevice</name>
+      <sendEventsAttribute>no</sendEventsAttribute>
+      <dataType>ui4</dataType>
+      <defaultValue></defaultValue>
+     </stateVariable>
+     <stateVariable>
+      <name>ButtonNumber</name>
+      <sendEventsAttribute>no</sendEventsAttribute>
+      <dataType>ui4</dataType>
+      <defaultValue></defaultValue>
+     </stateVariable>
+   </serviceStateTable>
+   <actionList>
+      <action>
+         <name>SendRemoteCode</name>
+         <argumentList>
+            <argument>
+               <name>buttonNumber</name>
+               <direction>in</direction>
+               <relatedStateVariable>ButtonNumber</relatedStateVariable>
+            </argument>
+         </argumentList>
+      </action>
+   </actionList>
+</scpd>

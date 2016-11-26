@@ -1,0 +1,44 @@
+{
+    "flashicon": "https://a-lurker.github.io/icons/Image_Map_Remote_50_50.png",
+    "default_icon": "https://a-lurker.github.io/icons/Image_Map_Remote_50_50.png",
+    "inScene": "0",
+    "DisplayStatus": {},
+    "doc_url": {
+        "doc_language": 1,
+        "doc_manual": 1,
+        "doc_version": 1,
+        "doc_platform": 0,
+        "doc_page": "devices"
+    },
+    "Tabs": [
+        {
+            "Label": {
+                "text": "Keypad"
+            },
+            "Position": "1",
+            "TabType": "javascript",
+            "ScriptName": "J_ImageMapRemote1.js",
+            "Function": "runKeypadTab"
+        },
+        {
+            "Label": {
+                "text": "Settings"
+            },
+            "Position": "2",
+            "TabType": "javascript",
+            "ScriptName": "J_ImageMapRemote1.js",
+            "Function": "runSettingsTab"
+        },
+        {
+            "Label": {
+                "lang_tag": "advanced",
+                "text": "Advanced"
+            },
+            "Position": "3",
+            "TabType": "javascript",
+            "ScriptName": "shared.js",
+            "Function": "advanced_device"
+        }
+    ],
+    "DeviceType": "urn:schemas-a-lurker-com:device:ImageMapRemote:1"
+}

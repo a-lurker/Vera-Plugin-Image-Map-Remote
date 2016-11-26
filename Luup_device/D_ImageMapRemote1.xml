@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+   <specVersion>
+      <major>1</major>
+      <minor>0</minor>
+   </specVersion>
+   <device>
+      <deviceType>urn:schemas-a-lurker-com:device:ImageMapRemote:1</deviceType>
+      <friendlyName>Image Map Remote</friendlyName>
+      <manufacturer>A Lurker</manufacturer>
+      <staticJson>D_ImageMapRemote1.json</staticJson>
+      <serviceList>
+         <service>
+            <serviceType>urn:schemas-a-lurker-com:service:ImageMapRemote:1</serviceType>
+            <serviceId>urn:a-lurker-com:serviceId:ImageMapRemote1</serviceId>
+            <SCPDURL>S_ImageMapRemote1.xml</SCPDURL>
+         </service>
+      </serviceList>
+      <implementationList>
+         <implementationFile>I_ImageMapRemote1.xml</implementationFile>
+      </implementationList>
+   </device>
+</root>
